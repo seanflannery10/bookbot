@@ -1,0 +1,6 @@
+def count_words(text):
+    text_list = text.split()
+    wc = 0
+    for word in text_list:
+        wc += 1
+    return wc
